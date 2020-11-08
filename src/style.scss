@@ -1,7 +1,154 @@
-.nav-logo{
-    width: 30%;
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  font-family: "Poppins";
 }
 
-.nav-bar-main{
-    background-color: rgb(34, 34, 34) !important;
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  outline: none;
+  &:hover {
+    text-decoration: none;
+    text-transform: none;
+    outline: none;
+  }
+}
+
+.nav-logo {
+  width: 25%;
+}
+
+.nav-bar-main {
+  background-color: rgb(34, 34, 34) !important;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header-main {
+  padding-left: 1%;
+  margin-top: 62px;
+  height: 92vh;
+  width: auto;
+  background-image: url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+  .sub-main {
+    .title {
+      font-size: 100px;
+      font-weight: 800;
+      color: #37392d58;
+      letter-spacing: 5px;
+    }
+    .quick-contact {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      min-width: 50px;
+      height: 600px;
+      .email {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 20px;
+        position: absolute;
+        right: -20;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          transform: translateX(-190px);
+        }
+        .email-logo {
+          width: 30px;
+          margin-right: 10px;
+          opacity: 0.6;
+        }
+        a {
+          color: #ffaa49;
+        }
+      }
+      .phone {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 20px;
+        position: absolute;
+        top: 50px;
+        right: -20;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          transform: translateX(-140px);
+        }
+        .email-logo {
+          width: 28px;
+          margin-right: 10px;
+          opacity: 0.6;
+        }
+        a {
+          width: 150px;
+          color: #ffaa49;
+        }
+      }
+    }
+  }
+}
+
+.our-story-main {
+  min-height: 500px;
+  margin-top: 40px;
+  position: relative;
+  .pointer {
+    position: absolute;
+    top: -50px;
+  }
+  .title {
+    font-size: 80px;
+    text-align: center;
+    color: #33475b5f;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .sub-main {
+    margin-top: 60px;
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .title-text {
+        color: #33475b;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+      .desc {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 23px;
+        font-weight: 300;
+      }
+    }
+    .right {
+      img {
+        width: 100%;
+      }
+    }
+
+    .what-we-do {
+      margin-top: 70px;
+    }
+  }
 }

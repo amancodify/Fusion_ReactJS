@@ -1,14 +1,13 @@
 import React from 'react';
+import Header from "./header";
+import OurStory from "./story";
 
 const HomePage = () => {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                    This is Home Page
-                </div>
-            </div>
-        </div>
+        <>
+            <Header />
+            <OurStory />
+        </>
     )
 }
 
