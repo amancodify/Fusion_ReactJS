@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import fusionLogo from "../../../assets/logo.png";
+import fusionLogo from "../../../assets/logo-trans-white.png";
 
 const NavBar = () => {
     return (
