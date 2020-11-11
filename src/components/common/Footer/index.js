@@ -8,12 +8,11 @@ const Footer = () => {
                 <div className="container sub-main">
                     <div className="row">
                         <div className="col-md-2 logo">
-                            <img src={WhiteLogo} alt="" />
+                            <a href="/"><img src={WhiteLogo} alt="" /></a>
                         </div>
 
                         <div className="d-flex col-md-4">
                             <div className="f-items">
-                                <a href="#s" className="item">Home</a>
                                 <a href="#s" className="item">Blog</a>
                                 <a href="#s" className="item">Contact</a>
                                 <a href="#s" className="item">About</a>
@@ -31,7 +30,14 @@ const Footer = () => {
 
                         <div className="col-md-3 services">
                             <div className="item-title">Address</div>
-                            <div className="item">C-241, 1st floor, Pandav Nagar, Near Mother Dairy, New Delhi - 110092, India</div>
+                            <div className="item">
+                                <a href="https://goo.gl/maps/P3QFaFC28aTYBqbu7" target="blank">C-241, 1st floor, Pandav Nagar, Near Mother Dairy, New Delhi - 110092, India</a>
+                            </div>
+                            <br />
+                            <div className="item-title">Contact</div>
+                            <a href="mailto: fusionengitech@gmail.com" className="item">fusionengitech@gmail.com</a>
+                            <br />
+                            <a href="tel: +919718881900" className="item">+91-9718881900</a>
                         </div>
 
                         <div className="col-md-3 services">
@@ -47,7 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright">
-                    <div className="text">© 2020 copyrights @ FUSION ENGITECH PVT LTD | Developed by Aman</div>
+                    <div className="text">© 2020 copyrights @ FUSION ENGITECH PVT LTD | Developed by <a className="developer-name" target="blank" href="https://www.linkedin.com/in/aman-raj-46770595/"> Aman </a></div>
                 </div>
             </div>
         </>

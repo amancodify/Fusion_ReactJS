@@ -1,8 +1,7 @@
 import React from 'react';
 import missionImg from "../../../assets/construction2.jpg";
 import constructionTeamImg from "../../../assets/cteam.jpg";
-
-
+import keyValIcon from "../../../assets/keyvalue.svg";
 
 const OurStory = () => {
     return (
@@ -38,13 +37,13 @@ const OurStory = () => {
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
                             <div className="col-md-3 open-card">
-                                <div className="oc-title">Our Platform</div>
-                                <div className="oc-desc">The HubSpot growth platform lets your entire company to work together — from marketing, to sales, to customer service. Each Hub is powerful alone, but better together.</div>
+                                <div className="oc-title">Our key Values</div>
+                                <div className="oc-desc">We at Fusion Engitech would consciously like to channel its resources, energy and activities towards building a word that is free of low standards. All our activities & dealing consciously introspect our work and action on day to day basis. </div>
                             </div>
                             <div className="col-md-3 p-card">
                                 <div className="p-title">
-                                    <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2020/CRM.svg" alt="" />
-                                    <span>HubSpot CRM</span>
+                                    <img src={keyValIcon} alt="" />
+                                    <span>Quality Control</span>
                                 </div>
                                 <div className="p-desc">
                                     Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
@@ -52,8 +51,8 @@ const OurStory = () => {
                             </div>
                             <div className="col-md-3 p-card">
                                 <div className="p-title">
-                                    <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2020/CRM.svg" alt="" />
-                                    <span>HubSpot CRM</span>
+                                    <img src={keyValIcon} alt="" />
+                                    <span>High Return</span>
                                 </div>
                                 <div className="p-desc">
                                     Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
@@ -63,8 +62,8 @@ const OurStory = () => {
                         <div className="row align-items-center justify-content-center">
                             <div className="col-md-3 p-card">
                                 <div className="p-title">
-                                    <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2020/CRM.svg" alt="" />
-                                    <span>HubSpot CRM</span>
+                                    <img src={keyValIcon} alt="" />
+                                    <span>Customer Satisfaction</span>
                                 </div>
                                 <div className="p-desc">
                                     Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
@@ -72,8 +71,8 @@ const OurStory = () => {
                             </div>
                             <div className="col-md-3 p-card">
                                 <div className="p-title">
-                                    <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2020/CRM.svg" alt="" />
-                                    <span>HubSpot CRM</span>
+                                    <img src={keyValIcon} alt="" />
+                                    <span>Professionalism</span>
                                 </div>
                                 <div className="p-desc">
                                     Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
@@ -81,8 +80,8 @@ const OurStory = () => {
                             </div>
                             <div className="col-md-3 p-card">
                                 <div className="p-title">
-                                    <img src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2020/CRM.svg" alt="" />
-                                    <span>HubSpot CRM</span>
+                                    <img src={keyValIcon} alt="" />
+                                    <span>Authentic Service</span>
                                 </div>
                                 <div className="p-desc">
                                     Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
@@ -96,10 +95,10 @@ const OurStory = () => {
                                 </div>
                                 <div className="desc-container">
                                     <div className="p-title">
-                                        <span>Integrations and Extensions</span>
+                                        <span>Management and Team</span>
                                     </div>
                                     <div className="p-desc">
-                                        Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                        Our team of experts and professional engineers that include architect, designers, civil engineers and other professional engineers & workers who are gaining experience from past many years in the field of civil engineering. In order to provide excellent quality service we do complete planning and designing of project related task that is prepared after completely understanding of the client’s requirement.
                                 </div>
                                 </div>
                             </div>
