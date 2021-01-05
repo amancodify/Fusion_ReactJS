@@ -59,9 +59,10 @@ const Clients = () => {
                 </div>
                 <div className="cards-container">
                     <div className="row justify-content-center">
-                        {clientsData.map((item) => {
+                        {clientsData.map((item, inx) => {
                             return (
                                 <ClientsCard
+                                    key={`cliens_${inx}`}
                                     logo={item.logo}
                                     companyName={item.cname}
                                     location={item.location}

@@ -30,14 +30,17 @@ const Footer = () => {
 
                         <div className="col-md-3 services">
                             <div className="item-title">Address</div>
-                            <div className="item">
-                                <a href="https://goo.gl/maps/P3QFaFC28aTYBqbu7" target="blank">C-241, 1st floor, Pandav Nagar, Near Mother Dairy, New Delhi - 110092, India</a>
-                            </div>
+                            <a href="https://goo.gl/maps/P3QFaFC28aTYBqbu7" target="blank" className="item">
+                                <div>C-241, 1st floor, Pandav Nagar, Near Mother Dairy, New Delhi - 110092, India</div>
+                            </a>
                             <br />
                             <div className="item-title">Contact</div>
-                            <a href="mailto: fusionengitech@gmail.com" className="item">fusionengitech@gmail.com</a>
-                            <br />
-                            <a href="tel: +919718881900" className="item">+91-9718881900</a>
+                            <a href="mailto: fusionengitech@gmail.com" className="item d-flex align-items-center">
+                                <i className="fa fa-envelope mr-2"></i> fusionengitech@gmail.com
+                            </a>
+                            <a href="tel: +919718881900" className="item d-flex align-items-center">
+                                <i className="fa fa-phone mr-2"></i> +91-9718881900
+                            </a>
                         </div>
 
                         <div className="col-md-3 services">
