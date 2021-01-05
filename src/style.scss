@@ -410,7 +410,7 @@ a {
 }
 
 .p-highlights-main {
-  background-color: rgb(17, 16, 16);
+  background-color: rgb(34, 26, 26);
   min-height: 400px;
   font-family: "Poppins";
   padding: 40px 90px;
@@ -424,11 +424,12 @@ a {
     text-align: center;
     margin-bottom: 40px;
     letter-spacing: 4px;
-    span{
+    span {
       color: rgb(140, 140, 140);
     }
     @media only screen and (max-width: 600px) {
-      font-size: 40px;
+      font-size: 30px;
+      margin-bottom: 30px;
     }
   }
   .project-main {
@@ -440,7 +441,7 @@ a {
     padding: 4px;
     transition: all 0.2s ease-in-out;
     font-family: "Poppins";
-    &:hover{
+    &:hover {
       transform: translateY(-8px);
     }
     .banner-img {
