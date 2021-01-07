@@ -433,7 +433,7 @@ a {
     }
   }
   .project-main {
-    width: 270px;
+    width: 300px;
     height: 270px;
     border-radius: 3%;
     border: 1px solid rgb(223, 223, 223);
@@ -455,6 +455,14 @@ a {
       font-weight: 600;
       margin-top: 5px;
       padding: 0px 3px;
+    }
+    .location{
+      font-size: 12px;
+      color: white;
+      padding: 0px 5px;
+      i {
+        color: yellowgreen;
+      }
     }
     .desc {
       color: rgb(216, 216, 216);

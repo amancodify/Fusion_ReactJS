@@ -46,7 +46,7 @@ const OurStory = () => {
                                     <span>Quality Control</span>
                                 </div>
                                 <div className="p-desc">
-                                    Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                    Quality control is maintained into every step of Fusion’s construction processes. From material receiving through final outgoing product, quality control is carefully monitored. Our process ensures that our customers get the best quality product and at the lowest price possible.
                                 </div>
                             </div>
                             <div className="col-md-3 p-card">
@@ -55,7 +55,7 @@ const OurStory = () => {
                                     <span>High Return</span>
                                 </div>
                                 <div className="p-desc">
-                                    Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                    "A great business at a fair price is superior to a fair business at a great price." We’ve really made the money out of high quality businesses. In some cases, we bought the whole business.
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const OurStory = () => {
                                     <span>Customer Satisfaction</span>
                                 </div>
                                 <div className="p-desc">
-                                    Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                    Our customers are not our competitors. We compete for them, not with them. We alwasys tries for the best to provide to our customers, the only thing we care about is to match the maximum percentage of customers demand and what we deliver.
                                 </div>
                             </div>
                             <div className="col-md-3 p-card">
@@ -75,7 +75,7 @@ const OurStory = () => {
                                     <span>Professionalism</span>
                                 </div>
                                 <div className="p-desc">
-                                    Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                    Professionalism is the conduct, behavior and attitude of someone in a work or business environment. Professionalism leads to workplace success, a strong professional reputation and a high level of work ethic and excellence. We at Fusion maintain the ethics in a proper manner.
                                 </div>
                             </div>
                             <div className="col-md-3 p-card">
@@ -84,7 +84,7 @@ const OurStory = () => {
                                     <span>Authentic Service</span>
                                 </div>
                                 <div className="p-desc">
-                                    Our CRM is free, because we believe your entire organization should be able to have a unified view of your customers. It’s the underlying database that powers each HubSpot product, and is the heart and soul of the software.
+                                    It’s been overhyped, oversold, and underrepresented (in many cases). Some even argue that authenticity is dead. When authenticity is a value, you’ll have a true desire to help the customer and better understand their needs.
                                 </div>
                             </div>
                         </div>
