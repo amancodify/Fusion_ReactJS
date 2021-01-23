@@ -15,10 +15,10 @@ const Footer = () => {
                             <div className="f-items">
                                 <a href="#s" className="item">Blog</a>
                                 <a href="#s" className="item">Contact</a>
-                                <a href="#s" className="item">About</a>
+                                <a href="/aboutus" className="item">About</a>
                                 <a href="#s" className="item">Career</a>
                                 <a href="#s" className="item">Privacy Policy</a>
-                                <a href="#s" className="item">FAQs</a>
+                                <a href="/#our-story" className="item">Story</a>
                             </div>
                             <div className="ml-5 services d-flex flex-column">
                                 <div className="item-title">Services</div>

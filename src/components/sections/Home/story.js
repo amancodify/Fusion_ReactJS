@@ -29,7 +29,7 @@ const OurStory = () => {
                         </div>
                         <div className="col-md-5 left wwr-d">
                             <div className="title-text">Who we are?</div>
-                            <div className="desc">Established in the year 2015 Delhi India, we ‘’FUSION ENGITECH PVT.LTD.’’ are engaged in providing various kind of Training & Civil construction service that include is now a well-known company providing quality construction within stipulated time frame, thus, gaining a competitive edge in the construction work , Roads & Industrial Roads. These are offered as per the requirement of our esteemed clients. The business is driven by our 2 working director collectively they accumulated more than 4 years of work experience in the civil & trading industry. They are involved in the business development procurement projects management and administration of the company.</div>
+                            <div className="desc">Established in the year 2015 Delhi India, we ‘’FUSION ENGITECH PVT.LTD.’’ are engaged in providing various kind of Training & Civil construction service that include is now a well-known company providing quality construction within stipulated time frame, thus, gaining a competitive edge in the construction work , Roads & Industrial Roads. These are offered as per the requirement of our esteemed clients. Construction began as a general works contractor in 2015. Over the year, it has undertaken many challenging projects and accumulated skills know how and experiences in design and build solution projects management services building trades and related engineering works.</div>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const OurStory = () => {
                                     <span>Quality Control</span>
                                 </div>
                                 <div className="p-desc">
-                                    Quality control is maintained into every step of Fusion’s construction processes. From material receiving through final outgoing product, quality control is carefully monitored. Our process ensures that our customers get the best quality product and at the lowest price possible.
+                                    Quality control is maintained into every step of Fusion’s construction processes. Our director themselves look after the work of quality assurance with a sense of responsibility and indulgence.
                                 </div>
                             </div>
                             <div className="col-md-3 p-card">

@@ -12,7 +12,7 @@ const PROJECTS = [
         "bannerImg": p1Banner,
         "mainTitle": "L&T Pvt. Ltd.",
         "location": "Udaipur, Rajasthan",
-        "description": "Building work at the prime location of rajasthan - Udaipur, L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world."
+        "description": "Building work at the prime location of rajasthan - Udaipur, L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries."
     },
     {
         "bannerImg": p9Banner,
@@ -24,7 +24,7 @@ const PROJECTS = [
         "bannerImg": p11Banner,
         "mainTitle": "L&T Pvt. Ltd.",
         "location": "Ajmer/Binmaliya, Rajasthan",
-        "description": "Turfing work from L&T - WDFC Project 5 Ajmer to binmaliya, Rajsthan. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world."
+        "description": "Turfing work from L&T - WDFC Project 5 Ajmer to binmaliya, Rajsthan. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure and Defense - for customers in over 30 countries around the world."
     },
     {
         "bannerImg": p4Banner,
@@ -58,6 +58,7 @@ const ProjectsHighlights = () => {
         <>
             <div className=" p-highlights-main">
                 <div className="main-title">RUNNING <span>PROJECTS</span></div>
+                <div className="sub-title">Successful projects don't just happen. They require structured planning, insightful management and good interpersonal skills.</div>
                 <div className="d-flex flex-wrap justify-content-center align-items-center">
                     {PROJECTS.map((item, inx) => {
                         return (

@@ -19,7 +19,7 @@ const NavBar = () => {
                         <NavDropdown.Item href="#action/3.4">#More</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="#career">Career</Nav.Link>
-                    <Nav.Link href="#about">About Us</Nav.Link>
+                    <Nav.Link href="/aboutus">About Us</Nav.Link>
                     <Nav.Link href="#contact"> Contact Us </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
