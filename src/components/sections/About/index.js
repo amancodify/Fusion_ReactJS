@@ -2,6 +2,7 @@ import React from "react";
 import AboutBanner from "../../../assets/about-banner.jpg";
 import Nitish from "../../../assets/nitish.jpg";
 import Sumit from "../../../assets/sumit.jpg";
+import ManagementGif from "../../../assets/management.gif";
 
 
 const AboutUs = () => {
@@ -26,7 +27,7 @@ const AboutUs = () => {
                         <div className="title-main">MANAGEMENT</div>
                         <div className="row justify-content-center">
                             <div className="col-md-4">
-                                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/36ddd276339625.5c66944c27cd5.gif" className="banner-gif" alt="" />
+                                <img src={ManagementGif} className="banner-gif" alt="" />
                             </div>
                             <div className="col-md-6 texts">
                                 Our team of experts and professional engineers that include architect, designers, civil engineers and other professional engineers & workers who are gaining experience from past many years in the field of civil engineering. In order to provide excellent quality service we do complete planning and designing of project related task that is prepared after completely understanding of the client’s requirement. Each and every division of our organization is managed and controlled by our team of experts who have wide expertise in their respective domain.
@@ -46,7 +47,7 @@ const AboutUs = () => {
                                     <div className="owner-title">Kumar Madhurendra</div>
                                     <div className="designation">CEO & CO-Founder</div>
                                     <div className="social-main">
-                                        <a href="#s"><i className="fa fa-facebook-f mr-3"></i></a>
+                                        <a href="https://www.facebook.com/kumarmadhurendras" target="blank"><i className="fa fa-facebook-f mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-instagram mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-linkedin mr-3"></i></a>
                                     </div>
@@ -58,7 +59,7 @@ const AboutUs = () => {
                                     <div className="owner-title">Sumit Shrivastav</div>
                                     <div className="designation">CEO & CO-Founder</div>
                                     <div className="social-main">
-                                        <a href="#s"><i className="fa fa-facebook-f mr-3"></i></a>
+                                        <a href="https://www.facebook.com/sumit.shrivastva.9" target="blank"><i className="fa fa-facebook-f mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-instagram mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-linkedin mr-3"></i></a>
                                     </div>

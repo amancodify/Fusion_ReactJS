@@ -14,7 +14,7 @@ const Footer = () => {
                         <div className="d-flex col-md-4">
                             <div className="f-items">
                                 <a href="#s" className="item">Blog</a>
-                                <a href="#s" className="item">Contact</a>
+                                <a href="/contactus" className="item">Contact</a>
                                 <a href="/aboutus" className="item">About</a>
                                 <a href="#s" className="item">Career</a>
                                 <a href="#s" className="item">Privacy Policy</a>
@@ -46,17 +46,17 @@ const Footer = () => {
                         <div className="col-md-3 services">
                             <div className="item-title">Follow Us on</div>
                             <div className="item socials">
-                                <a href="#s"><i className="fa fa-facebook-f mr-3"></i></a>
-                                <a href="#s"><i className="fa fa-twitter mr-3"></i></a>
-                                <a href="#s"><i className="fa fa-instagram mr-3"></i></a>
-                                <a href="#s"><i className="fa fa-linkedin mr-3"></i></a>
-                                <a href="#s"><i className="fa fa-youtube mr-3"></i></a>
+                                <a href="https://www.facebook.com/Fusion-Engitech-Pvtltd-431004123744008" target="blank"><i className="fa fa-facebook-f mr-3"></i></a>
+                                <a href="https://twitter.com/" target="blank"><i className="fa fa-twitter mr-3"></i></a>
+                                <a href="https://www.instagram.com/" target="blank"><i className="fa fa-instagram mr-3"></i></a>
+                                <a href="https://www.linkedin.com/feed/" target="blank"><i className="fa fa-linkedin mr-3"></i></a>
+                                <a href="https://www.youtube.com/" target="blank"><i className="fa fa-youtube mr-3"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="copyright">
-                    <div className="text">© 2020 copyrights @ FUSION ENGITECH PVT LTD | Developed by <a className="developer-name" target="blank" href="https://www.linkedin.com/in/aman-raj-46770595/"> Aman </a></div>
+                    <div className="text">© 2021 copyrights @ FUSION ENGITECH PVT LTD | Developed by <a className="developer-name" target="blank" href="https://www.linkedin.com/in/aman-raj-46770595/"> Aman </a></div>
                 </div>
             </div>
         </>

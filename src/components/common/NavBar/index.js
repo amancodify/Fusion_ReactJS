@@ -9,7 +9,7 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="#our-story">Our Story</Nav.Link>
+                    <Nav.Link href="/#our-story">Our Story</Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Construction</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">House Keeping</NavDropdown.Item>
@@ -20,7 +20,7 @@ const NavBar = () => {
                     </NavDropdown>
                     <Nav.Link href="#career">Career</Nav.Link>
                     <Nav.Link href="/aboutus">About Us</Nav.Link>
-                    <Nav.Link href="#contact"> Contact Us </Nav.Link>
+                    <Nav.Link href="/contactus"> Contact Us </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

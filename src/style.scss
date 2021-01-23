@@ -582,3 +582,121 @@ a {
     }
   }
 }
+
+.contactus-main {
+  margin-top: 75px;
+  .c-header-main {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  .texts-main {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    .main-title {
+      font-size: 3.15rem;
+      font-weight: 700;
+      color: rgb(64, 64, 64);
+    }
+  }
+  .banner-main {
+    text-align: right;
+    padding-right: 0px;
+
+    @media only screen and (max-width: 600px) {
+      margin-top: 20px;
+    }
+    .banner {
+      width: 96%;
+    }
+  }
+  .contact-details-main {
+    min-height: 400px;
+    margin-top: 120px;
+    padding: 0px 15% 90px 15%;
+    @media only screen and (max-width: 600px) {
+      padding: 0px 20px 40px 20px;
+      margin-top: 70px;
+    }
+    .main-title {
+      font-size: 3.15rem;
+      font-weight: 700;
+      color: rgb(64, 64, 64);
+      text-align: center;
+      margin-bottom: 80px;
+      @media only screen and (max-width: 600px) {
+        font-size: 4.15rem;
+        margin-bottom: 40px;
+      }
+    }
+    .sub-title {
+      font-size: 22px;
+      font-weight: 600;
+      color: rgb(66, 66, 66);
+    }
+    .sub-title2 {
+      margin-top: 10px;
+      color: rgb(128, 128, 128);
+      width: 38%;
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
+  }
+  .c-block-main {
+    margin-top: 100px;
+    @media only screen and (max-width: 600px) {
+      margin-top: 50px;
+    }
+    .c-block {
+      margin-bottom: 70px;
+      .bar-line {
+        display: inline-block;
+        width: 50px;
+        height: 10px;
+        background-color: #8be3e3;
+        margin-top: 4px;
+        margin-bottom: 22px;
+      }
+      .detail-title {
+        font-size: 28px;
+        font-weight: 600;
+        color: rgb(66, 66, 66);
+      }
+      .details {
+        color: grey;
+        .icon-phone {
+          font-size: 28px;
+          color: rgb(44, 44, 44);
+        }
+        .icon-email {
+          font-size: 22px;
+          color: rgb(44, 44, 44);
+          font-weight: 600;
+        }
+        .numbers {
+          .title {
+            color: rgb(44, 44, 44);
+            font-weight: 600;
+          }
+          .data {
+            color: rgb(76, 76, 76);
+          }
+        }
+        .email {
+          .title {
+            color: rgb(44, 44, 44);
+            font-weight: 600;
+          }
+          .data {
+            color: rgb(76, 76, 76);
+          }
+        }
+      }
+    }
+  }
+}
