@@ -12,13 +12,13 @@ const NavBar = () => {
                     <Nav.Link href="/#our-story">Our Story</Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="/services/construction">Construction</NavDropdown.Item>
-                        <NavDropdown.Item href="/services/houseKeeping">House Keeping</NavDropdown.Item>
+                        <NavDropdown.Item href="/services/housekeeping">House Keeping</NavDropdown.Item>
                         <NavDropdown.Item href="/services/security">Security</NavDropdown.Item>
                         <NavDropdown.Item href="/services/outsourcing">Outsourcing</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">#More</NavDropdown.Item>
+                        {/* <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">#More</NavDropdown.Item> */}
                     </NavDropdown>
-                    <Nav.Link href="#career">Career</Nav.Link>
+                    <Nav.Link href="https://form.jotform.com/210272302844446" target="blank">Career</Nav.Link>
                     <Nav.Link href="/aboutus">About Us</Nav.Link>
                     <Nav.Link href="/contactus"> Contact Us </Nav.Link>
                 </Nav>

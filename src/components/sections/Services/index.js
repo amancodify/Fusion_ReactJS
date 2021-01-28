@@ -68,7 +68,7 @@ const Services = () => {
                                 </div>
                             </div>
                             <div className="row cta-main">
-                                    <div className="cta-btn">{serviceData.buttonText}</div>
+                                    <a href="https://form.jotform.com/210272631869458" target="blank" className="cta-btn">{serviceData.buttonText}</a>
                             </div>
                         </div>
                     </div>

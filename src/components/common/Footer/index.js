@@ -13,18 +13,19 @@ const Footer = () => {
 
                         <div className="d-flex col-md-4">
                             <div className="f-items">
-                                <a href="#s" className="item">Blog</a>
                                 <a href="/contactus" className="item">Contact</a>
                                 <a href="/aboutus" className="item">About</a>
-                                <a href="#s" className="item">Career</a>
-                                <a href="#s" className="item">Privacy Policy</a>
+                                <a href="https://form.jotform.com/210272302844446" target="blank" className="item">Career</a>
                                 <a href="/#our-story" className="item">Story</a>
+                                <a href="#blog" className="item">Blog</a>
+                                <a href="#privacypolicy" className="item">Privacy Policy</a>
                             </div>
                             <div className="ml-5 services d-flex flex-column">
                                 <div className="item-title">Services</div>
-                                <a href="#s" className="item">Construction</a>
-                                <a href="#s" className="item">security</a>
-                                <a href="#s" className="item">Housing</a>
+                                <a href="/services/construction" className="item">Construction</a>
+                                <a href="/services/security" className="item">security</a>
+                                <a href="/services/housekeeping" className="item">House Keeping</a>
+                                <a href="/services/outsourcing" className="item">Outsourcing</a>
                             </div>
                         </div>
 

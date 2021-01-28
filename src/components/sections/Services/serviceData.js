@@ -4,7 +4,7 @@ import securityImg from "../../../assets/s-security.jpg";
 import outsourcingImg from "../../../assets/s-outsourcing.jpg";
 
 const SERVICEDATA = {
-    "houseKeeping": {
+    "housekeeping": {
         "title": "House Keeping",
         "trustedBy": "1000+",
         "acceptedInOver": "100",
