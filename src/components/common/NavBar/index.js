@@ -11,10 +11,10 @@ const NavBar = () => {
                 <Nav className="ml-auto">
                     <Nav.Link href="/#our-story">Our Story</Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Construction</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">House Keeping</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Security</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Outsourcing</NavDropdown.Item>
+                        <NavDropdown.Item href="/services/construction">Construction</NavDropdown.Item>
+                        <NavDropdown.Item href="/services/houseKeeping">House Keeping</NavDropdown.Item>
+                        <NavDropdown.Item href="/services/security">Security</NavDropdown.Item>
+                        <NavDropdown.Item href="/services/outsourcing">Outsourcing</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">#More</NavDropdown.Item>
                     </NavDropdown>
