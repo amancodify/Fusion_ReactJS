@@ -10,7 +10,7 @@ import p12Banner from "../../../assets/p12.jpg";
 const PROJECTS = [
     {
         "bannerImg": p1Banner,
-        "mainTitle": "L&T Pvt. Ltd.",
+        "mainTitle": "L&T Ltd.",
         "location": "Udaipur, Rajasthan",
         "description": "Building work at the prime location of rajasthan - Udaipur, L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries."
     },
@@ -22,7 +22,7 @@ const PROJECTS = [
     },
     {
         "bannerImg": p11Banner,
-        "mainTitle": "L&T Pvt. Ltd.",
+        "mainTitle": "L&T Ltd.",
         "location": "Ajmer/Binmaliya, Rajasthan",
         "description": "Turfing work from L&T - WDFC Project 5 Ajmer to binmaliya, Rajsthan. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure and Defense - for customers in over 30 countries around the world."
     },
@@ -34,13 +34,13 @@ const PROJECTS = [
     },
     {
         "bannerImg": p10Banner,
-        "mainTitle": "L&T Pvt. Ltd.",
+        "mainTitle": "L&T Ltd.",
         "location": "Gurgaon sector 54",
         "description": "Building work at Gurgaon sector 54. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world."
     },
     {
         "bannerImg": p5Banner,
-        "mainTitle": "L&T Pvt. Ltd.",
+        "mainTitle": "L&T Ltd.",
         "location": "Dawarka sector 25, New Delhi",
         "description": "L&T  building work at dawarka sector 25. L&T addresses critical needs in key sectors - Hydrocarbon, Infrastructure, Power, Process Industries and Defense - for customers in over 30 countries around the world."
     },

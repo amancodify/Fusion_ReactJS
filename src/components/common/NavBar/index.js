@@ -18,7 +18,7 @@ const NavBar = () => {
                         {/* <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">#More</NavDropdown.Item> */}
                     </NavDropdown>
-                    <Nav.Link href="https://form.jotform.com/210272302844446" target="blank">Career</Nav.Link>
+                    <Nav.Link href="https://form.jotform.com/210302802053437" target="blank">Career</Nav.Link>
                     <Nav.Link href="/aboutus">About Us</Nav.Link>
                     <Nav.Link href="/contactus"> Contact Us </Nav.Link>
                 </Nav>

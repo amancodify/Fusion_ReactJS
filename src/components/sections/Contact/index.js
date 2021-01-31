@@ -39,7 +39,7 @@ const ContactUs = () => {
                                         <div className="icon-phone mr-3"><i className="fa fa-phone" aria-hidden="true"></i></div>
                                         <div className="numbers">
                                             <div className="title">Call Us</div>
-                                            <div className="data"> +91-9718881900/7091910183</div>
+                                            <div className="data"> +91-9718881900</div>
                                         </div>
                                     </div>
 

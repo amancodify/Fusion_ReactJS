@@ -44,24 +44,24 @@ const AboutUs = () => {
                             <div className="col-md-4">
                                 <div className="owner">
                                     <img src={Nitish} alt="" />
-                                    <div className="owner-title">Kumar Madhurendra</div>
+                                    <div className="owner-title">Madhurendra</div>
                                     <div className="designation">CEO & CO-Founder</div>
                                     <div className="social-main">
                                         <a href="https://www.facebook.com/kumarmadhurendras" target="blank"><i className="fa fa-facebook-f mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-instagram mr-3"></i></a>
-                                        <a href="#s"><i className="fa fa-linkedin mr-3"></i></a>
+                                        <a href="https://www.linkedin.com/in/madhurendra-kumar-959b208a/" target="blank"><i className="fa fa-linkedin mr-3"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="owner">
                                     <img src={Sumit} alt="" />
-                                    <div className="owner-title">Sumit Shrivastav</div>
+                                    <div className="owner-title">Sumit Kumar</div>
                                     <div className="designation">CEO & CO-Founder</div>
                                     <div className="social-main">
                                         <a href="https://www.facebook.com/sumit.shrivastva.9" target="blank"><i className="fa fa-facebook-f mr-3"></i></a>
                                         <a href="#s"><i className="fa fa-instagram mr-3"></i></a>
-                                        <a href="#s"><i className="fa fa-linkedin mr-3"></i></a>
+                                        <a href="https://www.linkedin.com/in/sumit-kumar-ba1023116/" target="blank"><i className="fa fa-linkedin mr-3"></i></a>
                                     </div>
                                 </div>
                             </div>

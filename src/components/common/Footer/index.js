@@ -15,7 +15,7 @@ const Footer = () => {
                             <div className="f-items">
                                 <a href="/contactus" className="item">Contact</a>
                                 <a href="/aboutus" className="item">About</a>
-                                <a href="https://form.jotform.com/210272302844446" target="blank" className="item">Career</a>
+                                <a href="https://form.jotform.com/210302802053437" target="blank" className="item">Career</a>
                                 <a href="/#our-story" className="item">Story</a>
                                 <a href="#blog" className="item">Blog</a>
                                 <a href="#privacypolicy" className="item">Privacy Policy</a>
