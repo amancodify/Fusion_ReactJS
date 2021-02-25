@@ -54,7 +54,7 @@ const Clients = () => {
             <div className="clients-main">
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="title">Clints & Partners</div>
+                        <div className="title">Clients & Partners</div>
                     </div>
                 </div>
                 <div className="cards-container">
